@@ -7,7 +7,7 @@ import sqlite3
 path = str(input())
 path = path.replace('\\','/')
 
-#C:\Users\jorge\Desktop\clientes.csv
+
 
 try:
     df = pd.read_csv(path, delimiter=';')
